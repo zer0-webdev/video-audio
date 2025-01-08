@@ -5,11 +5,17 @@
 .parent{
     padding: 25px;
     background-color: blanchedalmond;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .child{
     border: 2px solid rgb(15, 158, 160);
     background: rgb(178, 228, 229);
     padding: 20px;
     font-size: 18px;
-    margin: 10px 0;
 }
